@@ -1,0 +1,45 @@
+Polytechnique Montréal
+
+Département de génie informatique et génie logiciel
+
+INF1995: Projet initial en ingénierie informatique 
+         et travail en équipe
+
+Grille de correction des programmes:
+
+Identification:
+  Travail Pratique # : 8
+  Section #  : 3
+  Équipe #   : 
+  Correcteur : Anthony Garant
+
+
+Qualité et le choix de vos portions de code choisies: 	(5 points) : (-3)
+
+Qualité de vos modifications aux Makefiles:		(5 points) : ok
+
+Le Rapport: 	/7
+  Explications cohérentes par rapport au code retenu
+  pour former la librairie				(2 points) : (-0.5)
+  Explications cohérentes par rapport aux Makefiles
+  modifiés						(2 points) : ok
+  Explications claires avec un bon niveau de détails	(2 points) : (-0.5)
+  Bon Francais						(1 point ) : ok
+
+Bonne soumission de l'ensemble du code (compilation
+sans erreurs) et du rapport selon le format demandé 	(3 points) : ok
+
+
+Total:     16/20
+
+
+Commentaires du correcteur:
+ - Soyez juste dans les termes que vous utilisez, TypePort n'est pas une classe.
+ - Votre code dans Del est dangereux puisquil utilise des =, ceci implique que vous modifier le port au complet a chaque fois que vous voulez modifier letat de la del. Ceci nest pas desirable.
+- Votre classe de moteur na pas de controle de direction.
+- Puisque les moteurs sont independant il serait interessant de pouvoir les controller de maniere independante.
+- Mauvais nom de classe pour controlleur. Ce terme veut dire quelque chose de specifique en logiciel et ne devrait donc pas etre utilise pour autre chose. (utils aurait deja ete mieux)
+- Une librairie doit etre flexible. En ce moment le port que estAppuyer regarde est hardcoder. Ceci implique que la fonction peut juste regarder ce port. De plus pour savoir ca il faut aller voir limplementation. (ca serait deja moins pire si ce fait serait explicite i.e. pind4EstAppyer())
+- Votre librairie aurait pu etre plus complete.
+- Il manque le pourquoi dans votre rapport. Pourquoi les fonctions que vous avez choisi dinclure sont pertinente.
+- Bonne description de vos Makefiles!

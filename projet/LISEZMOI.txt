@@ -1,0 +1,29 @@
+*********************************************************************
+*							LOTUS ROYAL								*
+*					  ヽ(´ー`)人(´∇｀)人(`Д´)ノ 						*
+*********************************************************************
+
+------------
+Instructions
+------------
+
+*Comment implémenter le code sur le robot à partir du terminal*
+1) cd lib_dir
+2) make 
+3) cd ../src
+4) make
+5) make install
+
+	┏(‘▀_▀’)ノ♬♪
+
+-----------------------
+Contenu des répertoires
+-----------------------
+
+src : Répertoire contenant les fichiers d'implémentation du robot
+lib_dir : Répertoire contenant les fichiers de la librairie de notre robot
+
+	┏(‘▀_▀’)ノ♬♪
+
+
+Lotus Royal - Copyright (c) 2017 Équipe Lotus Royal™
